@@ -1,0 +1,8 @@
+node_modules
+/lib/
+/gh-pages/
+example
+/src/**/*.css.d.ts
+dist
+.vscode
+.cache

@@ -1,0 +1,38 @@
+{
+  "name": "off-js",
+  "version": "0.1.0",
+  "description": "One File Framework",
+  "main": "lib/index.js",
+  "module": "lib/index.mjs",
+  "unpkg": "lib/index.min.mjs",
+  "types": "lib/index.d.ts",
+  "repository": "https://github.com/iddar/off-js",
+  "bugs": {
+    "url": "https://github.com/iddar/off-js/issues"
+  },
+  "homepage": "https://github.com/iddar/off-js#readme",
+  "author": "Iddar Olivares",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "rimraf lib && rollup -c",
+    "tsc": "tsc",
+    "serv": "parcel example/index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.9.0",
+    "rollup-plugin-babel-minify": "^10.0.0",
+    "rollup-plugin-typescript2": "^0.27.0",
+    "typescript": "^3.8.3"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ]
+}
