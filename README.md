@@ -2,6 +2,12 @@
 
 Off.js is short for "One File Framework": off.js it's a small component framework, including the essentials tools for creating light projects.
 
+# Live Demo
+
+Visit the sandbox example: https://codesandbox.io/s/off-js-counter-pvn6i
+
+[demo](https://codesandbox.io/s/off-js-counter-pvn6i)
+
 ## Easy to use
 
 ```js
