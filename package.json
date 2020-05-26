@@ -1,6 +1,6 @@
 {
   "name": "off-js",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "One File Framework",
   "main": "lib/index.js",
   "module": "lib/index.mjs",

@@ -73,7 +73,7 @@ export class Offjs {
   }
 }
 
-let instance: Off
+let instance: Offjs
 export default function off (el?: HTMLElement) {
   if (instance == null) {
     instance = new Offjs(el)
