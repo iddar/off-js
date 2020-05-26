@@ -4,7 +4,7 @@ export type Render = (innerHTML: string, action?: Action) => void
 export type ActionResponse = CleanEvent|Array<CleanEvent>|void
 export type Action = () => ActionResponse
 
-export interface Off {
+export interface Offjs {
   render (html: string, action: Action): void
   render (el: HTMLElement, html: string, action: Action): void
   render (elOrHtml: HTMLElement | string, htmlOrAction?: string|Action, action?: Action ): void
@@ -29,7 +29,7 @@ export function html (template: TemplateStringsArray, ...args: Array<any>): stri
   },"")
 }
 
-export class Off {
+export class Offjs {
   private _events: CleanEvent[] = []
   private _container: HTMLElement
 
@@ -74,9 +74,9 @@ export class Off {
 }
 
 let instance: Off
-export default function niboffle (el?: HTMLElement) {
+export default function off (el?: HTMLElement) {
   if (instance == null) {
-    instance = new Off(el)
+    instance = new Offjs(el)
   }
   
   return instance.render.bind(instance)
