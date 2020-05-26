@@ -19,6 +19,20 @@ render(html`
 `)
 ```
 
+## Install
+
+```js
+// ES Module
+import off from 'https://unpkg.com/off-js'
+```
+
+```sh
+# for bundle projects
+npm install -S off-js
+or
+yarn add off-js
+```
+
 ## Lifecycle
 
 createElement -> (render) mount compoenent -> invoke actions
