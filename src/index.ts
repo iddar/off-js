@@ -29,7 +29,7 @@ export function html (template: TemplateStringsArray, ...args: Array<any>): stri
   },"")
 }
 
-export class Offjs {
+class Offjs {
   private _events: CleanEvent[] = []
   private _container: HTMLElement
 
@@ -72,6 +72,13 @@ export class Offjs {
     }
   }
 }
+
+type props = {}
+type Component = (props: props)
+export const router: Component = (_props) => {
+
+}
+
 
 let instance: Offjs
 export default function off (el?: HTMLElement) {
