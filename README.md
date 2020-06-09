@@ -102,6 +102,6 @@ The `html` metod call without parentheses, this method write only for support th
 
 ## TODO
 
-- [ ] Router
+- [x] Router
 - [ ] useRender (call render on any site)
 - [ ] More Docs

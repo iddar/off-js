@@ -1,6 +1,6 @@
 {
   "name": "off-js",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "One File Framework",
   "main": "lib/index.js",
   "module": "lib/index.mjs",
@@ -20,6 +20,7 @@
   ],
   "scripts": {
     "build": "rimraf lib && rollup -c",
+    "prepublish": "npm run build",
     "tsc": "tsc",
     "serv": "parcel example/index.html"
   },
